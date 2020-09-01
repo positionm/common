@@ -1,0 +1,10 @@
+E:\github_test\common\serialcommon\bin\Debug\serialcommon.exe.config
+E:\github_test\common\serialcommon\bin\Debug\serialcommon.exe
+E:\github_test\common\serialcommon\bin\Debug\serialcommon.pdb
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.csprojAssemblyReference.cache
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.Form1.resources
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.Properties.Resources.resources
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.csproj.GenerateResource.cache
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.csproj.CoreCompileInputs.cache
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.exe
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.pdb
