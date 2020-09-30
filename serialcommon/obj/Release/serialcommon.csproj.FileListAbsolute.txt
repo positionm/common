@@ -1,0 +1,5 @@
+E:\github_test\common\serialcommon\obj\Release\serialcommon.csprojAssemblyReference.cache
+E:\github_test\common\serialcommon\obj\Release\serialcommon.Form1.resources
+E:\github_test\common\serialcommon\obj\Release\serialcommon.Properties.Resources.resources
+E:\github_test\common\serialcommon\obj\Release\serialcommon.csproj.GenerateResource.cache
+E:\github_test\common\serialcommon\obj\Release\serialcommon.csproj.CoreCompileInputs.cache

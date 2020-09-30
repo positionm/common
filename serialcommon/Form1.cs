@@ -180,6 +180,7 @@ namespace serialcommon
                 StringBuilder sb = new StringBuilder();
                 long rec_count = 0;
                 int num = sp.BytesToRead;
+                int s = DateTime.Now.Second;//时间
                 byte[] recbuf = new byte[num];
                 rec_count += num;
 
@@ -188,30 +189,40 @@ namespace serialcommon
                 this.Invoke((EventHandler)delegate//异步执行 一个线程
                 {
                     if (!rbnhex.Checked)//如果未选中name为rbnHex的控件
-                {
-                        foreach (byte b in recbuf)
+                    {
+                        if (recbuf != null)
                         {
-                            sb.Append(b.ToString("X2") + " ");
+                            sb.Append(DateTime.Now.ToString()+":" + " ");
+                            foreach (byte b in recbuf)
+                            {
+                                sb.Append(b.ToString("X2") + " ");
+                            }
+                            sb.Append("\r\n");
                         }
-                    //try
-                    //{
-                    //    Invoke((EventHandler)(delegate
-                    //    {
-                    //        sb.Append(Encoding.ASCII.GetString(recbuf));  //将整个数组解码为ASCII数组
-                    //        textrevdata.AppendText(sb.ToString());
-                    //    }
-                    //    )
-                    //    );
-                    //}
+                        //try
+                        //{
+                        //    Invoke((EventHandler)(delegate
+                        //    {
+                        //        sb.Append(Encoding.ASCII.GetString(recbuf));  //将整个数组解码为ASCII数组
+                        //        textrevdata.AppendText(sb.ToString());
+                        //    }
+                        //    )
+                        //    );
+                        //}
 
-                    //catch
-                    //{
-                    //    MessageBox.Show("请勾选换行", "错误提示");
-                    //}
-                }
+                        //catch
+                        //{
+                        //    MessageBox.Show("请勾选换行", "错误提示");
+                        //}
+                    }
                     else
                     {
-                        sb.Append(Encoding.ASCII.GetString(recbuf));
+                        if(null != recbuf)
+                        {
+                            sb.Append(DateTime.Now.ToString() + ":" + " ");
+                            sb.Append(Encoding.ASCII.GetString(recbuf));
+                            sb.Append("\r\n");//换行
+                        }
                     }
                 //else if (rbnhex.Checked)//如果选中
                 //    {

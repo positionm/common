@@ -1,0 +1,14 @@
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.Form1.resources
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.Properties.Resources.resources
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.csproj.GenerateResource.cache
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.csproj.CoreCompileInputs.cache
+E:\github_test\common\serialcommon\bin\x86\Debug\serialcommon.exe.config
+E:\github_test\common\serialcommon\bin\x86\Debug\serialcommon.exe.manifest
+E:\github_test\common\serialcommon\bin\x86\Debug\serialcommon.application
+E:\github_test\common\serialcommon\bin\x86\Debug\serialcommon.exe
+E:\github_test\common\serialcommon\bin\x86\Debug\serialcommon.pdb
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.exe.manifest
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.application
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.exe
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.pdb
+E:\github_test\common\serialcommon\obj\x86\Debug\serialcommon.csprojAssemblyReference.cache

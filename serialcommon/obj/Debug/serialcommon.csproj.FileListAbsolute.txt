@@ -8,3 +8,7 @@ E:\github_test\common\serialcommon\obj\Debug\serialcommon.csproj.GenerateResourc
 E:\github_test\common\serialcommon\obj\Debug\serialcommon.csproj.CoreCompileInputs.cache
 E:\github_test\common\serialcommon\obj\Debug\serialcommon.exe
 E:\github_test\common\serialcommon\obj\Debug\serialcommon.pdb
+E:\github_test\common\serialcommon\bin\Debug\serialcommon.exe.manifest
+E:\github_test\common\serialcommon\bin\Debug\serialcommon.application
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.exe.manifest
+E:\github_test\common\serialcommon\obj\Debug\serialcommon.application

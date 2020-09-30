@@ -74,7 +74,10 @@
             // 
             // opencom
             // 
-            this.opencom.Location = new System.Drawing.Point(179, 268);
+            this.opencom.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.opencom.Location = new System.Drawing.Point(180, 208);
             this.opencom.Name = "opencom";
             this.opencom.Size = new System.Drawing.Size(127, 34);
             this.opencom.TabIndex = 0;
@@ -84,6 +87,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.cbxDatabits);
             this.groupBox1.Controls.Add(this.cbxParity);
             this.groupBox1.Controls.Add(this.cbxStopbits);
@@ -94,9 +100,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.Color.Blue;
             this.groupBox1.Location = new System.Drawing.Point(33, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(273, 250);
+            this.groupBox1.Size = new System.Drawing.Size(273, 190);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "串口设置";
@@ -105,7 +112,7 @@
             // cbxDatabits
             // 
             this.cbxDatabits.FormattingEnabled = true;
-            this.cbxDatabits.Location = new System.Drawing.Point(103, 208);
+            this.cbxDatabits.Location = new System.Drawing.Point(103, 148);
             this.cbxDatabits.Name = "cbxDatabits";
             this.cbxDatabits.Size = new System.Drawing.Size(142, 23);
             this.cbxDatabits.TabIndex = 10;
@@ -113,11 +120,7 @@
             // cbxParity
             // 
             this.cbxParity.FormattingEnabled = true;
-            this.cbxParity.Items.AddRange(new object[] {
-            "Odd",
-            "Even",
-            "None"});
-            this.cbxParity.Location = new System.Drawing.Point(103, 165);
+            this.cbxParity.Location = new System.Drawing.Point(103, 118);
             this.cbxParity.Name = "cbxParity";
             this.cbxParity.Size = new System.Drawing.Size(142, 23);
             this.cbxParity.TabIndex = 9;
@@ -125,7 +128,7 @@
             // cbxStopbits
             // 
             this.cbxStopbits.FormattingEnabled = true;
-            this.cbxStopbits.Location = new System.Drawing.Point(103, 121);
+            this.cbxStopbits.Location = new System.Drawing.Point(103, 88);
             this.cbxStopbits.Name = "cbxStopbits";
             this.cbxStopbits.Size = new System.Drawing.Size(142, 23);
             this.cbxStopbits.TabIndex = 8;
@@ -133,7 +136,7 @@
             // cbxBaudRate
             // 
             this.cbxBaudRate.FormattingEnabled = true;
-            this.cbxBaudRate.Location = new System.Drawing.Point(103, 76);
+            this.cbxBaudRate.Location = new System.Drawing.Point(103, 58);
             this.cbxBaudRate.Name = "cbxBaudRate";
             this.cbxBaudRate.Size = new System.Drawing.Size(142, 23);
             this.cbxBaudRate.TabIndex = 7;
@@ -141,7 +144,7 @@
             // cbxCOMPort
             // 
             this.cbxCOMPort.FormattingEnabled = true;
-            this.cbxCOMPort.Location = new System.Drawing.Point(103, 29);
+            this.cbxCOMPort.Location = new System.Drawing.Point(103, 28);
             this.cbxCOMPort.Name = "cbxCOMPort";
             this.cbxCOMPort.Size = new System.Drawing.Size(142, 23);
             this.cbxCOMPort.TabIndex = 6;
@@ -150,50 +153,50 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(6, 208);
+            this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(30, 152);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
+            this.label5.Size = new System.Drawing.Size(52, 15);
             this.label5.TabIndex = 5;
             this.label5.Text = "数据位";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(6, 164);
+            this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(23, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 20);
+            this.label4.Size = new System.Drawing.Size(67, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "奇偶校验";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(6, 120);
+            this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(30, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 20);
+            this.label3.Size = new System.Drawing.Size(52, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "停止位";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(6, 76);
+            this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(30, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "波特率";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(6, 32);
+            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(30, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
+            this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "串口号";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -210,6 +213,9 @@
             // 
             // textrevdata
             // 
+            this.textrevdata.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textrevdata.BackColor = System.Drawing.SystemColors.MenuText;
             this.textrevdata.ForeColor = System.Drawing.SystemColors.Info;
             this.textrevdata.Location = new System.Drawing.Point(6, 14);
@@ -222,30 +228,36 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.textsenddata);
-            this.groupBox3.Location = new System.Drawing.Point(353, 477);
+            this.groupBox3.Location = new System.Drawing.Point(353, 440);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(559, 100);
+            this.groupBox3.Size = new System.Drawing.Size(565, 100);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "发送数据";
             // 
             // textsenddata
             // 
+            this.textsenddata.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textsenddata.BackColor = System.Drawing.SystemColors.MenuText;
             this.textsenddata.ForeColor = System.Drawing.SystemColors.Info;
             this.textsenddata.Location = new System.Drawing.Point(6, 16);
             this.textsenddata.Multiline = true;
             this.textsenddata.Name = "textsenddata";
             this.textsenddata.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textsenddata.Size = new System.Drawing.Size(547, 78);
+            this.textsenddata.Size = new System.Drawing.Size(553, 78);
             this.textsenddata.TabIndex = 0;
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.label6);
             this.groupBox4.Controls.Add(this.numericUpDown1);
             this.groupBox4.Controls.Add(this.timebox3);
-            this.groupBox4.Location = new System.Drawing.Point(33, 477);
+            this.groupBox4.Location = new System.Drawing.Point(34, 349);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(273, 60);
             this.groupBox4.TabIndex = 4;
@@ -282,12 +294,16 @@
             // 
             // rbnchar
             // 
+            this.rbnchar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rbnchar.AutoSize = true;
             this.rbnchar.Checked = true;
-            this.rbnchar.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.rbnchar.Location = new System.Drawing.Point(6, 16);
+            this.rbnchar.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.rbnchar.ForeColor = System.Drawing.Color.Blue;
+            this.rbnchar.Location = new System.Drawing.Point(33, 16);
             this.rbnchar.Name = "rbnchar";
-            this.rbnchar.Size = new System.Drawing.Size(106, 23);
+            this.rbnchar.Size = new System.Drawing.Size(88, 19);
             this.rbnchar.TabIndex = 0;
             this.rbnchar.TabStop = true;
             this.rbnchar.Text = "字符显示";
@@ -296,20 +312,27 @@
             // 
             // rbnhex
             // 
+            this.rbnhex.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rbnhex.AutoSize = true;
-            this.rbnhex.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.rbnhex.Location = new System.Drawing.Point(147, 16);
+            this.rbnhex.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.rbnhex.ForeColor = System.Drawing.Color.Blue;
+            this.rbnhex.Location = new System.Drawing.Point(163, 16);
             this.rbnhex.Name = "rbnhex";
-            this.rbnhex.Size = new System.Drawing.Size(98, 23);
+            this.rbnhex.Size = new System.Drawing.Size(82, 19);
             this.rbnhex.TabIndex = 1;
             this.rbnhex.Text = "hex显示";
             this.rbnhex.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
+            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.Controls.Add(this.rbnhex);
             this.groupBox5.Controls.Add(this.rbnchar);
-            this.groupBox5.Location = new System.Drawing.Point(33, 307);
+            this.groupBox5.Location = new System.Drawing.Point(33, 248);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(273, 46);
             this.groupBox5.TabIndex = 0;
@@ -317,7 +340,10 @@
             // 
             // btncheckcom
             // 
-            this.btncheckcom.Location = new System.Drawing.Point(33, 267);
+            this.btncheckcom.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncheckcom.Location = new System.Drawing.Point(33, 208);
             this.btncheckcom.Name = "btncheckcom";
             this.btncheckcom.Size = new System.Drawing.Size(127, 34);
             this.btncheckcom.TabIndex = 5;
@@ -327,7 +353,10 @@
             // 
             // cleardata
             // 
-            this.cleardata.Location = new System.Drawing.Point(33, 543);
+            this.cleardata.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cleardata.Location = new System.Drawing.Point(33, 477);
             this.cleardata.Name = "cleardata";
             this.cleardata.Size = new System.Drawing.Size(127, 34);
             this.cleardata.TabIndex = 6;
@@ -337,7 +366,10 @@
             // 
             // senddata
             // 
-            this.senddata.Location = new System.Drawing.Point(179, 543);
+            this.senddata.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.senddata.Location = new System.Drawing.Point(179, 477);
             this.senddata.Name = "senddata";
             this.senddata.Size = new System.Drawing.Size(127, 34);
             this.senddata.TabIndex = 7;
@@ -348,7 +380,7 @@
             // hexsend
             // 
             this.hexsend.AutoSize = true;
-            this.hexsend.Location = new System.Drawing.Point(11, 24);
+            this.hexsend.Location = new System.Drawing.Point(59, 24);
             this.hexsend.Name = "hexsend";
             this.hexsend.Size = new System.Drawing.Size(83, 19);
             this.hexsend.TabIndex = 8;
@@ -357,9 +389,12 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox6.Controls.Add(this.checkBox2);
             this.groupBox6.Controls.Add(this.hexsend);
-            this.groupBox6.Location = new System.Drawing.Point(33, 372);
+            this.groupBox6.Location = new System.Drawing.Point(33, 405);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(273, 66);
             this.groupBox6.TabIndex = 8;
@@ -368,7 +403,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(147, 24);
+            this.checkBox2.Location = new System.Drawing.Point(156, 24);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(89, 19);
             this.checkBox2.TabIndex = 9;
@@ -380,7 +415,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 627);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 548);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(934, 26);
             this.statusStrip1.TabIndex = 9;
@@ -407,7 +442,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(934, 653);
+            this.ClientSize = new System.Drawing.Size(934, 574);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
